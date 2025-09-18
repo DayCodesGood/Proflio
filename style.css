@@ -1,0 +1,52 @@
+*{
+    background-color: bisque;
+}
+
+.top-button{
+    background-color:cornsilk;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+nav{
+    display:flex;
+    justify-self: space-between;
+    padding-top:0px;
+    padding-right:3rem;
+    padding-bottom:0px;
+    padding-left:3rem;
+    height:5rem;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+    background-color: aliceblue;
+    backdrop-filter: blur(5px);
+}
+
+.button-container {
+  position: fixed;    /* stays in place even when scrolling */
+  right: 110px;         /* distance from the left edge */
+  top:10px;          /* distance from the top edge */
+  display: flex;      /* keep them side by side */
+  gap: 10px;          /* space between buttons */
+  background-color:aliceblue ;
+}
+
+#picture{
+    width: 500px;        /* set your desired size */
+  height: 500px;       /* same as width for a perfect circle */
+  border-radius: 50%;  /* makes the image a circle */
+ object-fit: cover;   /* keeps image proportion and crops overflow */
+  }
+
+  .me-self{
+     display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;  
+  }
